@@ -1,0 +1,88 @@
+Delivery Management Database System
+Project Overview
+
+A mini MySQL-based delivery management database to manage employees, customers, vehicles, and rental pricing.
+
+Technologies Used
+
+MySQL, SQL, MySQL Workbench / CLI.
+
+Database Name
+
+deliverydbs
+
+Tables
+
+employee: Stores employee personal and job details.
+
+customer: Stores customer information.
+
+car_information: Stores vehicle details and assigned employee.
+
+car_rent: Stores trip and pricing data.
+
+Primary Keys
+
+employee.Employee_ID
+
+customer.customer_ID
+
+car_information.car_ID
+
+car_rent.rent_ID
+
+Relationships
+
+Employee → Car_Information: One-to-Many (1:M) using Foreign Key.
+
+Foreign Key
+
+car_information.Employee_ID → employee.Employee_ID
+
+Operations Performed
+
+Data insertion using INSERT.
+
+Data retrieval using SELECT.
+
+Data filtering using WHERE and LIKE.
+
+Data sorting using ORDER BY.
+
+Data updating using UPDATE.
+
+Data deletion using DELETE.
+
+Aggregate Functions
+
+Used COUNT, SUM, AVG, MIN, MAX.
+
+Grouping & Conditions
+
+Used GROUP BY and HAVING for summarized analysis.
+
+Joins
+
+Used INNER JOIN to connect employees with assigned cars.
+
+Key Concepts Applied
+
+Data integrity with primary and foreign keys.
+
+Real-world entity modeling.
+
+Relationship-based querying.
+
+Clean and scalable database design.
+
+Future Enhancements
+
+Add booking/order table.
+
+Implement many-to-many relationships.
+
+Connect customers with trips and cars.
+
+Author
+
+Imran Ullah – Data Analyst / SQL Learner
