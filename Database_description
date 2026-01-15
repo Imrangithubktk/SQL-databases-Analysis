@@ -1,0 +1,19 @@
+ E-commerce Data Analysis Project (SQL)
+
+ Overview
+Yeh project ek relational database hai jo e-commerce transactions ko track aur analyze karta hai. Iska maqsad sales performance aur customer behavior ko samajhna hai.
+
+ Database Architecture
+Maine ismein **Star Schema** use kiya hai:
+- **Fact Table:** `sale_table` (Transactions)
+- **Dimension Tables:** `customer_table`, `product_table`, `store_table`
+
+ Analysis Performed
+1. **Total Sales:** Har region ki total sales calculate ki.
+2. **Profit Margins:** Product cost aur price ke darmiyan farq analyze kiya.
+3. **Data Integrity:** Foreign keys use karke data ko secure banaya.
+
+ How to Run
+1. Download the `ecommerce_data.sql` file.
+2. Import it into MySQL Workbench.
+3. Run the analysis queries provided in the scripts.
